@@ -1,0 +1,51 @@
+/* client/src/components/PostCreate.css */
+.post-create-container {
+  max-width: 600px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-align: center;
+}
+
+.create-post-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.create-post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.post-textarea {
+  height: 150px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background-color: #2a2a2a;
+  color: white;
+  resize: vertical;
+}
+
+.post-image-input {
+  color: #999;
+}
+
+.submit-post-button {
+  padding: 10px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-post-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,138 @@
+/* client/src/components/Timeline.css */
+.timeline-page {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.timeline-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.post-card {
+  background-color: #2a2a2a;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #444;
+  padding-bottom: 1rem;
+}
+
+.post-author-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.post-avatar-placeholder {
+  width: 40px;
+  height: 40px;
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.post-author-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #c0c0c0;
+}
+
+.post-date {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.post-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ddd;
+}
+
+.post-image-container {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.post-image {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.no-posts-message {
+  text-align: center;
+  color: #888;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.post-button {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+.post-button:hover {
+  background-color: #0056b3;
+}
+
+/* client/src/components/Timeline.css */
+
+/* ... (other styles) */
+
+.post-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #444;
+}
+
+.like-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.like-button:hover {
+  text-decoration: underline;
+}

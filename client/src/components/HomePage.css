@@ -1,0 +1,58 @@
+/* client/src/components/HomePage.css */
+/* client/src/index.css */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #4f4d4d; /* This sets the background of the entire page */
+  color: white; /* This makes all text on the page white by default */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* ... any other default styles */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #c1c2c3;
+}
+
+.home-header h1 {
+  font-size: 3rem;
+  color: #000000;
+}
+
+.home-header p {
+  font-size: 1.2rem;
+  color: #0b0b0b;
+}
+
+.home-cta {
+  margin-top: 2rem;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
