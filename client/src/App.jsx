@@ -5,7 +5,8 @@ import HomePage from './components/HomePage';
 import Register from './components/Register';
 import Login from './components/Login';
 import Timeline from './components/Timeline';
-import PostCreate from './components/PostCreate'; // <-- Import the new component
+import PostCreate from './components/PostCreate';
+import Users from './components/Users';
 import './App.css';
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/timeline" element={<Timeline />} />
-          <Route path="/create-post" element={<PostCreate />} /> {/* <-- Add the new route */}
+          <Route path="/create-post" element={<PostCreate />} />
+          <Route path="/users" element={<Users />} />
         </Routes>
       </div>
     </Router>

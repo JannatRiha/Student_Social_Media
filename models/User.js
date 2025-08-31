@@ -16,6 +16,14 @@ const UserSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  friends: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User'
+  }],
+  friendRequests: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User'
+  }],
   date: {
     type: Date,
     default: Date.now,
@@ -32,3 +40,4 @@ UserSchema.pre('save', async function(next) {
 });
 
 module.exports = mongoose.model('User', UserSchema);
+
